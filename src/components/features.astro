@@ -4,39 +4,39 @@ import { Icon } from "astro-icon";
 
 const features = [
   {
-    title: "Bring Your Own Framework",
+    title: "查询馆藏",
     description:
-      "Build your site using React, Svelte, Vue, Preact, web components, or just plain ol' HTML + JavaScript.",
-    icon: "bx:bxs-briefcase",
+      "在访问豆瓣京东等图书页面时，可以在右上角看到图书馆可借阅馆藏信息。",
+    icon: "bx:bxs-shopping-bag-alt",
   },
   {
-    title: "100% Static HTML, No JS",
+    title: "集成豆瓣评价",
     description:
-      "Astro renders your entire page to static HTML, removing all JavaScript from your final build by default.",
-    icon: "bx:bxs-window-alt",
+      "在访问图书馆网站的图书信息页面时，可以看到豆瓣短评在下方展示。",
+    icon: "bx:bxs-comment",
   },
   {
-    title: "On-Demand Components",
+    title: "图书馆信息",
     description:
-      "Need some JS? Astro can automatically hydrate interactive components when they become visible on the page.  ",
-    icon: "bx:bxs-data",
+      "使用扩展的 popup 弹窗浏览图书信息，图书馆借阅排行榜，图书馆活动预告，图书馆服务时间及交通指南。",
+    icon: "bx:bx-library",
   },
   {
-    title: "Broad Integration",
+    title: "阅读排行榜",
     description:
-      "Astro supports TypeScript, Scoped CSS, CSS Modules, Sass, Tailwind, Markdown, MDX, and any other npm packages.",
-    icon: "bx:bxs-bot",
+      "使用扩展的 popup 弹窗及后台配置首页时，可以获取豆瓣图书榜单、微信读书榜单。",
+    icon: "bx:bx-list-ol",
   },
   {
-    title: "SEO Enabled",
+    title: "集成搜索",
     description:
-      "Automatic sitemaps, RSS feeds, pagination and collections take the pain out of SEO and syndication. It just works!",
-    icon: "bx:bxs-file-find",
+      "在豆瓣、知乎、京东等网站通过右键搜索城市图书馆、微信读书及豆瓣读书等网站的关键字搜索结果。在后台搜索菜单，可以进一步搜索各地城市图书馆（目前7个城市），豆瓣、微信及多抓鱼等图书结果。",
+    icon: "bx:bxs-search",
   },
   {
-    title: "Community",
+    title: "后台管理",
     description:
-      "Astro is an open source project powered by hundreds of contributors making thousands of individual contributions.",
+      "通过后台配置可以选择关心的城市图书馆，获取豆瓣读书在读与想读的书单等。",
     icon: "bx:bxs-user",
   },
 ];
@@ -44,11 +44,10 @@ const features = [
 
 <div class="mt-16 md:mt-0">
   <h2 class="text-4xl lg:text-5xl font-bold lg:tracking-tight">
-    Everything you need to start a website
+    联动城市图书馆、豆瓣、与微信读书等网站服务
   </h2>
   <p class="text-lg mt-4 text-slate-600">
-    Astro comes batteries included. It takes the best parts of state-of-the-art
-    tools and adds its own innovations.
+    通过页面集成、插件弹窗及后台配置等方式，联动联动查询馆藏、查询豆瓣评论、集成豆瓣猜、京东推荐、右键搜索及后台批量查书等功能
   </p>
 </div>
 
