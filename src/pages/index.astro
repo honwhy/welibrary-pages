@@ -4,14 +4,24 @@ import Cta from "@components/cta.astro";
 import Features from "@components/features.astro";
 import Hero from "@components/hero.astro";
 import Logos from "@components/logos.astro";
+import MySlider from "@components/MySlider.jsx";
 import Layout from "@layouts/Layout.astro";
 ---
 
-<Layout title="">
+<Layout title="Welibrary">
   <Container>
     <Hero />
-    <Features />
-    <Logos />
-    <Cta />
+    <div class="swiper">
+      <MySlider client:load />
+    </div>
+    <div class="swiper">
+      <Features />
+    </div>
   </Container>
 </Layout>
+
+<style>
+  .swiper {
+    margin-top: 20px;
+  }
+</style>

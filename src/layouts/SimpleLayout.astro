@@ -1,0 +1,19 @@
+---
+import Container from "@components/container.astro";
+import Layout from "@layouts/Layout.astro";
+const { frontmatter } = Astro.props;
+---
+
+<Layout title={frontmatter.title}>
+  <Container>
+    <div class="mx-auto prose prose-lg mt-6">
+      <slot />
+    </div>
+  </Container>
+</Layout>
+
+<style>
+  .swiper {
+    margin-top: 28px;
+  }
+</style>
