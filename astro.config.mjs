@@ -6,6 +6,6 @@ import react from '@astrojs/react';
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://astroship.web3templates.com",
+  site: "https://welibrary.pages.dev",
   integrations: [react(), tailwind(), mdx(), sitemap()],
 });

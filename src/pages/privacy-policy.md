@@ -1,6 +1,6 @@
 ---
 layout: ../layouts/SimpleLayout.astro
-title: Introduction
+title: Privacy-policy
 ---
 
 **Effective Date: March 1, 2024**
