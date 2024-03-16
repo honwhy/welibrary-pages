@@ -72,6 +72,13 @@ export default function MySwiper() {
             alt="user image"
             />
         </swiper-slide>
+        <swiper-slide>
+        <img
+            src={`${import.meta.env.BASE_URL}context-search.gif`}
+            className="1"
+            alt="user image"
+            />
+        </swiper-slide>
         </swiper-container>
     );
 }
